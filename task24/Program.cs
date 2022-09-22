@@ -8,8 +8,6 @@ int ReadNumber(string massage)
 }
 
 
-int n = ReadNumber("Введите число:");  //вызов метода
-
 int SumNumbersToA(int a)
 {
     if(a >= 1)
@@ -27,8 +25,8 @@ else
     return -1; // неправильная сумма
 }
 }
-
-int summa = SumNumbersToA(n);
+int n = ReadNumber("Введите число:");  //вызов метода
+int summa = SumNumbersToA(n); // вызов метода
 Console.WriteLine(summa);
 
 
