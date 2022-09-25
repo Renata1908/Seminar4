@@ -5,5 +5,5 @@ array[n] = rand.Next(0, 2);
 
 foreach (int arr in array)
 {
- Console.Write(arr + " ");   
+ Console.Write(arr + "  ");   
 }
